@@ -32,7 +32,7 @@ body {
           justify-content: center;
   width: 100vw;
   height: 100vh;
-  background: #cdbf8f;
+  background: radial-gradient(#7f9fef, #6f65bf);
 }
 
 .canvas .body {
@@ -137,5 +137,20 @@ body {
           transform: rotate(33deg);
   left: 20vmin;
   top: -7.75vmin;
+}
+
+.canvas .top {
+  position: absolute;
+  background: transparent;
+  border-left: 0.5vmin solid transparent;
+  border-right: 0.5vmin solid transparent;
+  border-top: 1vmin solid #4f73df;
+  border-radius: 10%;
+  width: 1vmin;
+  height: 0;
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+  left: 50vmin;
+  top: -6.9vmin;
 }
 /*# sourceMappingURL=main.css.map */
