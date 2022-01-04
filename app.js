@@ -12,13 +12,15 @@ const main = () => {
     mouth = createDiv("mouth"),
     cheek = createDiv("cheek"),
     eye = createDiv("eye"),
-    tail = createDiv("tail");
-    
+    tail = createDiv("tail"),
+    top = createDiv("top");
+
   body.appendChild(sideFin);
   body.appendChild(mouth);
   body.appendChild(cheek);
   body.appendChild(eye);
   body.appendChild(tail);
+  body.appendChild(top);
 
   canvas.appendChild(body);
 
