@@ -44,4 +44,19 @@ body {
           transform: rotate(-7deg);
   border-top: 7.5vmin solid #4f73df;
 }
+
+.canvas .side-fin {
+  position: absolute;
+  width: 5vmin;
+  height: 10vmin;
+  background: #4f73df;
+  border-radius: 50%;
+  -webkit-transform: skewx(20deg);
+          transform: skewx(20deg);
+  -webkit-transform: rotate(33deg);
+          transform: rotate(33deg);
+  left: 59vmin;
+  top: 41vmin;
+  border-bottom: 1vmin solid #1d35af;
+}
 /*# sourceMappingURL=main.css.map */
