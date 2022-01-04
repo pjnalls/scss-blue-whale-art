@@ -1,0 +1,12 @@
+.side-fin {
+  position: absolute;
+  width: 5vmin;
+  height: 10vmin;
+  background: $whale-top;
+  border-radius: 50%;
+  transform: skewx(20deg);
+  transform: rotate(33deg);
+  left: 59vmin;
+  top: 41vmin;
+  border-bottom: 1vmin solid $whale-top-dark;
+}
