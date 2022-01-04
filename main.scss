@@ -7,11 +7,12 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background: $background-color;
+  background: radial-gradient($background-color, $background-color-dark);
   @import "body";
   @import "side-fin";
   @import "mouth";
   @import "cheek";
   @import "eye";
   @import "tail";
+  @import "top";
 }
