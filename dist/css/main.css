@@ -42,7 +42,7 @@ body {
   border-radius: 40%;
   -webkit-transform: rotate(-7deg);
           transform: rotate(-7deg);
-  border-top: 7.5vmin solid #4f73df;
+  border-top: 8vmin solid #4f73df;
 }
 
 .canvas .side-fin {
@@ -90,5 +90,52 @@ body {
   background: #2d256f;
   top: -3vmin;
   left: 43vmin;
+}
+
+.canvas .tail {
+  position: absolute;
+  background: transparent;
+  border-left: 4vmin solid transparent;
+  border-right: 4vmin solid transparent;
+  border-top: 7vmin solid #4f73df;
+  border-radius: 10%;
+  width: 33vmin;
+  height: 0;
+  -webkit-transform: rotate(-16deg);
+          transform: rotate(-16deg);
+  left: -15vmin;
+  top: -3.5vmin;
+}
+
+.canvas .tail::before {
+  content: "";
+  position: absolute;
+  background: transparent;
+  border-left: 2vmin solid transparent;
+  border-right: 2vmin solid transparent;
+  border-top: 3vmin solid #4f73df;
+  border-radius: 18%;
+  width: 5vmin;
+  height: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 0;
+  top: -7vmin;
+}
+
+.canvas .tail::after {
+  content: "";
+  position: absolute;
+  background: transparent;
+  border-left: 2vmin solid transparent;
+  border-right: 2vmin solid transparent;
+  border-top: 3vmin solid #4f73df;
+  border-radius: 18%;
+  width: 5vmin;
+  height: 0;
+  -webkit-transform: rotate(33deg);
+          transform: rotate(33deg);
+  left: 20vmin;
+  top: -7.75vmin;
 }
 /*# sourceMappingURL=main.css.map */
