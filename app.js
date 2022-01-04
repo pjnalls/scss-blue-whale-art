@@ -13,11 +13,13 @@ const main = () => {
     cheek = createDiv("cheek"),
     eye = createDiv("eye");
 
+    
+  body.appendChild(sideFin);
+  body.appendChild(mouth);
+  body.appendChild(cheek);
+  body.appendChild(eye);
+
   canvas.appendChild(body);
-  canvas.appendChild(sideFin);
-  canvas.appendChild(mouth);
-  canvas.appendChild(cheek);
-  canvas.appendChild(eye);
 
   root.appendChild(canvas);
 };

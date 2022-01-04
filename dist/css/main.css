@@ -55,8 +55,8 @@ body {
           transform: skewx(20deg);
   -webkit-transform: rotate(33deg);
           transform: rotate(33deg);
-  left: 59vmin;
-  top: 41vmin;
+  left: 40vmin;
+  top: -5vmin;
   border-bottom: 0.5vmin solid #2d256f;
 }
 
@@ -67,16 +67,16 @@ body {
   background: transparent;
   border-radius: 50% 50% 0 50%;
   border-bottom: 0.5vmin solid #2d256f;
-  top: 40vmin;
-  left: 69.3vmin;
+  top: -4.5vmin;
+  left: 49.7vmin;
 }
 
 .canvas .cheek {
   position: absolute;
   background: #df6a8f;
   opacity: 50%;
-  top: 41vmin;
-  left: 66vmin;
+  top: -3vmin;
+  left: 48vmin;
   height: 1vmin;
   width: 2.75vmin;
   border-radius: 50%;
@@ -88,7 +88,7 @@ body {
   height: 2vmin;
   border-radius: 50%;
   background: #2d256f;
-  top: 42vmin;
-  left: 63vmin;
+  top: -3vmin;
+  left: 43vmin;
 }
 /*# sourceMappingURL=main.css.map */
