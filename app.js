@@ -9,11 +9,15 @@ const main = () => {
     canvas = createDiv("canvas"),
     body = createDiv("body"),
     sideFin = createDiv("side-fin"),
-    mouth = createDiv("mouth");
+    mouth = createDiv("mouth"),
+    cheek = createDiv("cheek"),
+    eye = createDiv("eye");
 
   canvas.appendChild(body);
   canvas.appendChild(sideFin);
   canvas.appendChild(mouth);
+  canvas.appendChild(cheek);
+  canvas.appendChild(eye);
 
   root.appendChild(canvas);
 };
