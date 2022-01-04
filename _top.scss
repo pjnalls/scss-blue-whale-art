@@ -1,0 +1,13 @@
+.top {
+  position: absolute;
+  background: transparent;
+  border-left: 0.5vmin solid transparent;
+  border-right: 0.5vmin solid transparent;
+  border-top: 1vmin solid $whale-top;
+  border-radius: 10%;
+  width: 1vmin;
+  height: 0;
+  transform: rotate(100deg);
+  left: 50vmin;
+  top: -6.9vmin;
+}
