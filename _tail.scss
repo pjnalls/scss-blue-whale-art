@@ -1,0 +1,41 @@
+.tail {
+  position: absolute;
+  background: transparent;
+  border-left: 4vmin solid transparent;
+  border-right: 4vmin solid transparent;
+  border-top: 7vmin solid $whale-top;
+  border-radius: 10%;
+  width: 33vmin;
+  height: 0;
+  transform: rotate(-16deg);
+  left: -15vmin;
+  top: -3.5vmin;
+  &::before {
+    content: "";
+    position: absolute;
+  background: transparent;
+  border-left: 2vmin solid transparent;
+  border-right: 2vmin solid transparent;
+  border-top: 3vmin solid $whale-top;
+  border-radius: 18%;
+  width: 5vmin;
+  height: 0;
+  transform: rotate(45deg);
+  left: 0;
+  top: -7vmin;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+  background: transparent;
+  border-left: 2vmin solid transparent;
+  border-right: 2vmin solid transparent;
+  border-top: 3vmin solid $whale-top;
+  border-radius: 18%;
+  width: 5vmin;
+  height: 0;
+  transform: rotate(33deg);
+  left: 20vmin;
+  top: -7.75vmin;
+  }
+}
