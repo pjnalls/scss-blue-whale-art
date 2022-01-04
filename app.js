@@ -6,8 +6,10 @@ const createDiv = (className) => {
 
 const main = () => {
   const root = document.getElementById("root"),
-    canvas = createDiv("canvas");
+    canvas = createDiv("canvas"),
+    body = createDiv("body");
 
+  canvas.appendChild(body);
   root.appendChild(canvas);
 };
 
