@@ -1,0 +1,8 @@
+.body {
+  width: 60vmin;
+  height: 20vmin;
+  background-color: $whale-bottom;
+  border-radius: 40%;
+  transform: rotate(-7deg);
+  border-top: 7.5vmin solid $whale-top;
+}
