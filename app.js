@@ -7,9 +7,12 @@ const createDiv = (className) => {
 const main = () => {
   const root = document.getElementById("root"),
     canvas = createDiv("canvas"),
-    body = createDiv("body");
+    body = createDiv("body"),
+    sideFin = createDiv("side-fin");
 
   canvas.appendChild(body);
+  canvas.appendChild(sideFin);
+  
   root.appendChild(canvas);
 };
 
