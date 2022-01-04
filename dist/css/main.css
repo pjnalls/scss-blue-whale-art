@@ -34,4 +34,14 @@ body {
   height: 100vh;
   background: #cdbf8f;
 }
+
+.canvas .body {
+  width: 60vmin;
+  height: 20vmin;
+  background-color: #9ecff7;
+  border-radius: 40%;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
+  border-top: 7.5vmin solid #4f73df;
+}
 /*# sourceMappingURL=main.css.map */
