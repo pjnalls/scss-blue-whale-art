@@ -57,6 +57,17 @@ body {
           transform: rotate(33deg);
   left: 59vmin;
   top: 41vmin;
-  border-bottom: 1vmin solid #1d35af;
+  border-bottom: 0.5vmin solid #2d256f;
+}
+
+.canvas .mouth {
+  position: absolute;
+  width: 10vmin;
+  height: 4vmin;
+  background: transparent;
+  border-radius: 50% 50% 0 50%;
+  border-bottom: 0.5vmin solid #2d256f;
+  top: 40vmin;
+  left: 69.3vmin;
 }
 /*# sourceMappingURL=main.css.map */
